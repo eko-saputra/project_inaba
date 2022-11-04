@@ -63,7 +63,7 @@
         <div class="d-flex align-items-center">
           <div class="site-logo">
             <a href="index.html" class="d-block">
-              <img src="{{asset('assets/images/logo sd.webp')}}" alt="Image" class="" width="75">
+              <img src="{{asset('assets/images/logo sd.webp')}}" alt="Image" class="" width="100">
             </a>
           </div>
           <div class="mr-auto">
@@ -205,7 +205,7 @@
               <div class="owl-slide-3 owl-carousel">
                   <div class="course-1-item">
                     <figure class="thumnail">
-                      <a href="course-single.html"><img src="images/course_1.jpg" alt="Image" class="img-fluid"></a>
+                      <a href="course-single.html"><img src="{{asset('assets/sd/images/course_1.jpg')}}" alt="Image" class="img-fluid"></a>
                       <div class="price">$99.00</div>
                       <div class="category"><h3>Mobile Application</h3></div>
                     </figure>
@@ -225,7 +225,7 @@
 
                   <div class="course-1-item">
                     <figure class="thumnail">
-                      <a href="course-single.html"><img src="images/course_2.jpg" alt="Image" class="img-fluid"></a>
+                      <a href="course-single.html"><img src="{{asset('assets/sd/images/course_2.jpg')}}" alt="Image" class="img-fluid"></a>
                       <div class="price">$99.00</div>
                       <div class="category"><h3>Web Design</h3></div>
                     </figure>
@@ -245,7 +245,7 @@
 
                   <div class="course-1-item">
                     <figure class="thumnail">
-                      <a href="course-single.html"><img src="images/course_3.jpg" alt="Image" class="img-fluid"></a>
+                      <a href="course-single.html"><img src="{{asset('assets/sd/images/course_3.jpg')}}" alt="Image" class="img-fluid"></a>
                       <div class="price">$99.00</div>
                       <div class="category"><h3>Arithmetic</h3></div>
                     </figure>
@@ -265,7 +265,7 @@
 
                   <div class="course-1-item">
                     <figure class="thumnail">
-                        <a href="course-single.html"><img src="images/course_4.jpg" alt="Image" class="img-fluid"></a>
+                        <a href="course-single.html"><img src="{{asset('assets/sd/images/course_4.jpg')}}" alt="Image" class="img-fluid"></a>
                       <div class="price">$99.00</div>
                       <div class="category"><h3>Mobile Application</h3></div>
                     </figure>
@@ -285,7 +285,7 @@
 
                   <div class="course-1-item">
                     <figure class="thumnail">
-                        <a href="course-single.html"><img src="images/course_5.jpg" alt="Image" class="img-fluid"></a>
+                        <a href="course-single.html"><img src="{{asset('assets/sd/images/course_5.jpg')}}" alt="Image" class="img-fluid"></a>
                       <div class="price">$99.00</div>
                       <div class="category"><h3>Web Design</h3></div>
                     </figure>
@@ -305,7 +305,7 @@
 
                   <div class="course-1-item">
                     <figure class="thumnail">
-                        <a href="course-single.html"><img src="images/course_6.jpg" alt="Image" class="img-fluid"></a>
+                        <a href="course-single.html"><img src="{{asset('assets/sd/images/course_6.jpg')}}" alt="Image" class="img-fluid"></a>
                       <div class="price">$99.00</div>
                       <div class="category"><h3>Mobile Application</h3></div>
                     </figure>

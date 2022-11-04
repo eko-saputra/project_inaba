@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>INABATUL QUR'AN</title>
     <link href="{{ asset('assets/css/bootstrap.min.css')}}" rel="stylesheet">
     <link href="{{ asset('assets/css/style.css')}}" rel="stylesheet">
   </head>
@@ -30,24 +30,24 @@
     {{-- End Card --}}
 
     {{-- Card --}}
-        <div class="box shadow">
-            <h3 class="name">Muamalah<br>Inabah</h3>
-            <a href="#" class="klik">Klik disini</a>
-            <div class="circle">
-                <img src="{{asset('assets/images/logo muamalah.webp')}}" class="product">
-            </div>
-        </div>
-{{-- End Card --}}
-
-{{-- Card --}}
     <div class="box shadow">
         <h3 class="name">Yayasan<br>Inabah</h3>
-        <a href="#" class="klik">Klik disini</a>
+        <a href="/yy" class="klik">Klik disini</a>
         <div class="circle">
             <img src="{{asset('assets/images/logo yayasan.webp')}}" class="product">
         </div>
     </div>
     {{-- End Card --}}
+
+    {{-- Card --}}
+        <div class="box shadow">
+            <h3 class="name">Muamalah<br>Inabah</h3>
+            <a href="/mm" class="klik">Klik disini</a>
+            <div class="circle">
+                <img src="{{asset('assets/images/logo muamalah.webp')}}" class="product">
+            </div>
+        </div>
+{{-- End Card --}}
 </div>
 
     <script src="{{asset('assets/js/bootstrap.bundle.min.js')}}"></script>

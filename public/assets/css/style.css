@@ -84,7 +84,7 @@ h1 {
 }
 
 .container .box:hover .name {
-    top: 10px;
+    top: 20px;
     opacity: 1;
 }
 
