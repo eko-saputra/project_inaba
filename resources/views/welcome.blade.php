@@ -8,47 +8,54 @@
     <link href="{{ asset('assets/css/style.css')}}" rel="stylesheet">
   </head>
   <body>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <h1><b>INABATUL</b> QUR'AN</h1>
-                <p>KOTA DUMAI</p>
-                <br>
-                <span class="text-light">Copyright &copy 2022 - Team</span>
-            </div>
-        </div>
-    </div>
-      <div class="container">
-    {{-- Card --}}
-            <div class="box shadow">
-                <h3 class="name">SD Qur'an<br>Inabah</h3>
-                <a href="/sd" class="klik">Klik disini</a>
-                <div class="circle">
-                    <img src="{{asset('assets/images/logo sd.webp')}}" class="product">
+  <div class="container shadow">
+            <div class="row">
+                <div class="col text-center text-light my-5">
+                    <h1><b>INABATUL</b> <span style="background-color: white; padding:5px;" class="shadow text-dark rounded">QUR'AN</span></h1>
+                    <p class="mt-3">Jl. Cendana NO.5 - Jaya Mukti - Kota Dumai</p>
                 </div>
             </div>
-    {{-- End Card --}}
-
-    {{-- Card --}}
-    <div class="box shadow">
-        <h3 class="name">Yayasan<br>Inabah</h3>
-        <a href="/yy" class="klik">Klik disini</a>
-        <div class="circle">
-            <img src="{{asset('assets/images/logo yayasan.webp')}}" class="product">
-        </div>
-    </div>
-    {{-- End Card --}}
-
-    {{-- Card --}}
-        <div class="box shadow">
-            <h3 class="name">Muamalah<br>Inabah</h3>
-            <a href="/mm" class="klik">Klik disini</a>
-            <div class="circle">
-                <img src="{{asset('assets/images/logo muamalah.webp')}}" class="product">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <center>
+                        <div class="box shadow">
+                            <h4 class="name">SD Qur'an<br>Inabah</h4>
+                            <a href="/sd" class="klik" target="_blank">Klik disini</a>
+                            <div class="circle">
+                                <img src="{{asset('assets/images/logo sd.webp')}}" class="product">
+                            </div>
+                        </div>
+                    </center>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <center>
+                        <div class="box shadow">
+                            <h4 class="name">Yayasan<br>Inabah</h4>
+                            <a href="/yy" class="klik" target="_blank">Klik disini</a>
+                            <div class="circle">
+                                <img src="{{asset('assets/images/logo yayasan.webp')}}" class="product">
+                            </div>
+                        </div>
+                    </center>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <center>
+                        <div class="box shadow">
+                            <h4 class="name">Muamalah<br>Inabah</h4>
+                            <a href="/mm" class="klik" target="_blank">Klik disini</a>
+                            <div class="circle">
+                                <img src="{{asset('assets/images/logo muamalah.webp')}}" class="product">
+                            </div>
+                        </div>
+                    </center>
+                </div>
             </div>
-        </div>
-{{-- End Card --}}
-</div>
+            <div class="row">
+                <div class="col my-5 text-center text-light">
+                    Copyright &copy TIM 2022
+                </div>
+            </div>
+    </div>
 
     <script src="{{asset('assets/js/bootstrap.bundle.min.js')}}"></script>
     <script src="{{asset('assets/js/vanilla-tilt.min.js')}}"></script>
